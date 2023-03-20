@@ -1,4 +1,11 @@
+.header {}
+
 .body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    background: #2E2F42;
+
 }
