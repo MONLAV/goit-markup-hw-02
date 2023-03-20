@@ -6,6 +6,10 @@
 }
 
 .footer {
-    background: #2E2F42;
+    background-color: #2E2F42;
 
+}
+
+.text-footer {
+    color: #fff;
 }
