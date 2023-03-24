@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Document</title>
+    <title>Portfolio</title>
   </head>
   <body>
     <header>
@@ -23,26 +23,30 @@
         <ul>
           <li><a href="./index.html">Studio</a></li>
           <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
       <address>
         <ul>
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a href="tel:+110001111111" id="contacts">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </header>
     <main>
-      <!-- section 1 -->
+      <!-- section with button -->
       <section>
-        <button type="button">All</button>
-        <button type="button">Web Site</button>
-        <button type="button">App</button>
-        <button type="button">Design</button>
-        <button type="button">Marketing</button>
+        <ul>
+          <li><button type="button">All</button></li>
+          <li><button type="button">Web Site</button></li>
+          <li><button type="button">App</button></li>
+          <li><button type="button">Design</button></li>
+          <li><button type="button">Marketing</button></li>
+        </ul>
       </section>
-      <!-- section 2 -->
+      <!-- section images -->
       <section>
         <ul>
           <li>
@@ -133,15 +137,12 @@
         </ul>
       </section>
     </main>
-
     <footer>
       <div class="footer">
-        <div class="logo-footer">
-          <a href="./index.html">
-            <span class="text-web-footer">WEB</span>
-            <span class="text-studio-footer"> STUDIO</span></a
-          >
-        </div>
+        <a href="./index.html">
+          <span class="text-web-footer">WEB</span>
+          <span class="text-studio-footer">STUDIO</span></a
+        >
         <p class="text-footer">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
