@@ -1,6 +1,14 @@
 .header {}
 
-.logo-header {}
+.logo-header {
+    display: inline-block;
+    color: #2E2F42;
+}
+
+.logo-header:hover,
+.logo-header:focus {
+    color: #404bbf;
+}
 
 a {
     text-decoration: none;
@@ -20,12 +28,52 @@ a {
     color: #2E2F42;
     width: 71px;
     height: 21px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
+}
+
+.text-header {
+    color: #fff;
+    position: absolute;
+    width: 496px;
+    height: 120px;
+    left: 472px;
+    top: 260px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.button-order {
+    background: #4d5ae5;
+    color: white;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    position: absolute;
+    left: 636px;
+    top: 428px;
+    margin-top: 48px;
+}
+
+.button-order:hover,
+.button-order:focus {
+    background: #404bbf;
+    color: #fff;
+}
+
+.text-button {
+    size: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
 }
 
 .body {
@@ -37,6 +85,29 @@ a {
     background-color: #2E2F42;
     color: #fff;
     height: 600px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.horisontal-ul li {
+    display: inline-block;
+}
+
+.list-p {
+    width: 264px;
+
+}
+
+
+.button {
+    justify-content: space-between;
+}
+
+button:hover,
+button:focus {
+    color: #4d5ae5;
 }
 
 .footer {
