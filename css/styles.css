@@ -15,8 +15,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #ffffff;
+    color: var(--color-slate);
+    background-color: var(--color-white);
 }
 
 .link {
@@ -26,7 +26,6 @@ body {
 .text-web {
     color: var(--color-iris);
     font-family: var(--secondary-font);
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -36,10 +35,7 @@ body {
 
 .text-studio {
     color: var(--color-corporated);
-    width: 71px;
-    height: 21px;
     font-family: var(--secondary-font);
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -88,7 +84,6 @@ body {
 
 .text-header {
     font-family: var(--primary-font);
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -170,8 +165,8 @@ body {
 
 .button-filters:hover,
 .button-filters:focus {
-    background-color: #404bbf;
-    color: #ffffff;
+    background-color: var(--color-ocean);
+    color: var(--color-white);
     cursor: pointer;
 }
 
@@ -181,7 +176,7 @@ body {
 }
 
 .footer {
-    Height: 312px;
+    height: 312px;
     background-color: var(--color-corporated);
 }
 
@@ -189,7 +184,6 @@ body {
 .text-web-footer {
     color: var(--color-iris);
     font-family: var(--secondary-font);
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -198,9 +192,8 @@ body {
 }
 
 .text-studio-footer {
-    color: #f4f4fd;
+    color: var(--color-white);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -208,7 +201,6 @@ body {
 
 .text-footer {
     font-family: inherit;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
